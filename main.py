@@ -191,6 +191,7 @@ if option == "Main":
 
     # WORLD MAP WITH CITIES HIGHLIGHTED
     st.map(global_cities)
+    st.caption("World cities included in the dataset.")
 
 
 
@@ -205,7 +206,7 @@ if option == "Main":
     data_to_show = data_to_show[data_to_show["Date"] == last_date].sort_values(["Date", "City"], ascending=True)
     data_to_show = data_to_show[["City", "Species", "Count", "Min", "Max"]]
 
-    st.subheader(f"Data for {last_date}")
+    st.subheader(f"Latest date as of {last_date}")
 
     # Plot histogram using Altair library
     chart1 = alt.Chart(data_to_show).mark_bar(opacity=0.7).encode(
