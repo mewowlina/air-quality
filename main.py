@@ -321,4 +321,4 @@ else:
 
 st.sidebar.subheader("About this app")
 st.sidebar.caption("This is a web app demo using [streamlit](https://streamlit.io/) library. It is hosted on [heroku](https://www.heroku.com/).")
-st.sidebar.caption("For more info, please contact: [SarahMelina] (https://www.linkedin.com/in/sarahmelina/) on LinkedIn or see the code [here](https://github.com/mewowlina/air-quality).")
+#st.sidebar.caption("For more info, please contact: [SarahMelina] (https://www.linkedin.com/in/sarahmelina/) on LinkedIn or see the code [here](https://github.com/mewowlina/air-quality).")
